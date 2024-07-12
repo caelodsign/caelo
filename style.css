@@ -1,61 +1,48 @@
-* {
+* {  /* --- Para toda la página --- */
  margin: 0px;
  padding: 0px;
  font-family: Sans;
 }
 
-body {
+body {  /* --- El fondo de la página --- */
  background: #d1d1d1;
 }
 
-nav {
+nav {  /* --- Barra superior --- */
  width: 90%;
- min-height: 10vh;
- display: flex;
  justify-content: space-between;
- align-items: center;
  background-color: #232323;
- margin: 5%;
+ margin: 4%;
  border-radius: 8vh;
+ align-items: center;
+ display: flex;
 }
 
-nav img {
+nav img {  /* --- Imágenes de la barra superior --- */
+ transform: scale(0.6);
  padding: 2%;
- margin-left: 2%;
- transform: scale(0.65);
 }
 
-.nube {
- margin-right: 2%;
-}
-
-.lastrelease {
- margin: 5vh;
+.release {  /* --- Lanzamientos --- */
+ margin: 5%;
  width: 90%;
- min-height: 90%;
 }
 
-.ht {
- padding: 5vh;
- width: 80%;
- border-radius: 64px;
+.ht { /* --- Contenido --- */
  background-color: #232323;
  color: #d1d1d1;
+ width: 80%;
+ padding: 5%;
+ border-radius: 64px;
  margin: 0 auto;
 }
 
-.ht h1 {
- margin-bottom: 5vh;
+.ht h2 { /* --- Texto --- */
+ margin-bottom: 4%;
  text-align: center;
 }
 
-.other {
- margin-top: 10vh;
- width: 90%;
- min-height: 90%;
-}
-
-footer {
+footer { /* --- Pie de página --- */
  background-color: #232323;
  color: #d1d1d1;
  position: fixed;
@@ -67,21 +54,22 @@ footer {
  align-items: center;
 }
 
-.foot {
+.foot { /* --- Contenedor --- */
  position: relative;
 }
 
-.foot li {
+.foot li { /* --- Estilo de la lista --- */
  display: inline;
  text-align: center;
 }
 
-.foot img {
+.foot img { /* --- Íconos --- */
  margin: 2.5vh;
 }
 
-.slogan {
+.slogan { /* --- Texto al final --- */
+ margin-bottom: 20vh;
+ margin-top: 5vh;
  color: #232323;
- transform: translateY(-12.5vh);
  text-align: center;
 }
