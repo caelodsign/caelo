@@ -31,8 +31,8 @@ nav img {
 
 .lastrelease {
  margin: 5vh;
- width: 90vh;
- min-height: 90vh;
+ width: 90%;
+ min-height: 90%;
 }
 
 .ht {
@@ -51,8 +51,8 @@ nav img {
 
 .other {
  margin-top: 10vh;
- width: 90vh;
- min-height: 90vh;
+ width: 90%;
+ min-height: 90%;
 }
 
 footer {
