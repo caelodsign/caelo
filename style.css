@@ -25,6 +25,7 @@ nav img {  /* --- Imágenes de la barra superior --- */
 
 .release {  /* --- Lanzamientos --- */
  margin: 5%;
+ margin-top: 10%;
  width: 90%;
 }
 
